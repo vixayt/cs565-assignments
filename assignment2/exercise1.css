@@ -1,0 +1,31 @@
+html {
+  background: linear-gradient(grey, white);
+}
+
+.form-body {
+  text-align: center;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.btn-submit {
+  background-color: green;
+}
+
+.btn-reset {
+  background-color: red;
+}
