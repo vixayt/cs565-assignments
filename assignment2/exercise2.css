@@ -1,0 +1,65 @@
+html {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.nav-list {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #450203;
+}
+.nav-list li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: lightgrey;
+  text-decoration: none;
+  outline: 0;
+  line-height: 38px;
+  padding: 0 10px;
+}
+ul li:hover {
+  background-color: #660001;
+}
+
+.paragraphs-input {
+  border-radius: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0;
+  float: left;
+}
+
+.tweet {
+  position: relative;
+  height: 20px;
+  background-color: #1b95e0;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+.like {
+  background-color: #365899;
+  color: #fff;
+}
+
+.share {
+  background-color: #365899;
+  color: #fff;
+}
