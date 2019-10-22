@@ -1,0 +1,61 @@
+html {
+  margin: 0px;
+  padding: 50px;
+}
+body {
+  background-color: lightgray;
+}
+
+.nav-header {
+  background: linear-gradient(to right, orange, black);
+  display: block;
+}
+
+.nav-ulist {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list a {
+  display: block;
+  text-decoration: none;
+  color: orange;
+  outline: 0;
+  padding: 0 10px;
+  line-height: 30px;
+}
+.nav-list a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.container-header {
+  position: relative;
+}
+
+.fullname {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  color: white;
+}
+
+.about-me {
+  float: right;
+}
+.about-me-content {
+  float: right;
+  text-align: justify;
+}
+
+.contact-me-form {
+  float: left;
+}
+
+.contact-me-kitten {
+  float: right;
+}
