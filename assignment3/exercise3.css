@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  justify-content: space-around;
+}
+.row .col {
+  float: left;
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+  margin: 4px;
+  width: 100px;
+  line-height: 30px;
+}
