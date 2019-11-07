@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Vixay
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      style="width: 400px;"
+      class="m-2 p-3 mx-auto container-fluid border
+      border-secondary text-center"
+    >
+      <h1 class="form-header">
+        Contact Us
+      </h1>
+      <form action="/submit" method="POST" id="email_form" class="text-left">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" class="container-fluid rounded-0" />
+        </div>
+        <div class="pt-4">
+          <label for="email">Email</label>
+          <input id="email" name="email" class="container-fluid rounded-0" />
+        </div>
+        <div class="pt-4 pb-3">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            class="container-fluid"
+          ></textarea>
+        </div>
+        <button id="send_email" type="submit" class="button btn-primary">
+          Submit
+        </button>
+        <button type="reset" class="button btn-secondary">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
